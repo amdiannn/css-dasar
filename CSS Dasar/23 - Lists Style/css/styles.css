@@ -1,0 +1,30 @@
+*{
+    font-family: Arial;
+}
+
+h1{
+    font-size: 25px;
+    color: crimson;
+}
+
+ol{
+    list-style-type: lower-roman;
+}
+
+ul{
+    width: 400px;
+}
+
+ul li{
+    margin: 10px;
+    list-style-position: inside;
+    text-align: justify;
+}
+
+ol.singkat{
+    list-style: lower-greek inside;
+}
+
+ul.singkat{
+    list-style: circle inside;
+}

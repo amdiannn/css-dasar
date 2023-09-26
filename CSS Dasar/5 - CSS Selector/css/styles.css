@@ -1,0 +1,54 @@
+/* universal selector */
+* {
+    font-family: Arial;
+}
+
+
+/* type selector */
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: darkblue;
+}
+
+
+/* class selector */
+li.sarapan {
+    color: darkgoldenrod;
+}
+
+
+/* id selector */
+#makan_siang_siang {
+    color: darkgreen;
+}
+
+
+/* child selector */
+p>b {
+    color: darkorange;
+}
+
+li>b {
+    color: darkslateblue;
+}
+
+
+/* descendant selector */
+p b {
+    color: darkorange;
+}
+
+
+/* adjacent sibling selector */
+p+h2 {
+    color: deeppink;
+}
+
+
+/* general sibling selector */
+h2~p {
+    font-family: 'Times New Roman';
+}

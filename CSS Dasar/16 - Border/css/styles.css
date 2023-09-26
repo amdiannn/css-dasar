@@ -1,0 +1,52 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.border-1{
+    border: 2px groove darkblue;
+    border-bottom-width: 4px;
+}
+
+#atas-solid{
+    border-top-width: 4px;
+    border-top-style: solid;
+}
+
+#kiri-double{
+    border-left-style: double;
+    border-left-width: 4px;
+    border-color: darkred;
+}
+
+#bawah-dotted{
+    border-bottom-style: dotted;
+    border-bottom-width: 4px;
+    border-color: darkgreen;
+}
+
+#kanan-dashed{
+    border-right-style: dashed;
+    border-right-width: 4px;
+    border-color: darkmagenta;
+}
+
+.border-2{
+    border-width: 20px; 
+    /* berlaku ke semua sisi */
+    border-color: darkgoldenrod;
+    border-style: solid;
+}
+
+.border-3{
+    border-width: 20px 5px;
+    /* berlaku ke atas dan bawah, kiri dan kanan */
+    border-color: darkgoldenrod;
+    border-style: solid;
+}
+
+.border-4{
+    border-width: 5px 10px 15px 20px;
+    /* berlaku ke atas, kanan, bawah, kiri */
+    border-color: darkgoldenrod;
+    border-style: solid;
+}

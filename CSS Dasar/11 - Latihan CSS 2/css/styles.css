@@ -1,0 +1,38 @@
+*{
+    font-family: Tahome;
+}
+
+body{
+    background-color: rgb(131, 202, 202);
+}
+
+h1{
+    font-family: Times;
+    background-color: #ffd6ee;
+    padding: 10px;
+    text-align: center;
+}
+
+h2{
+    background-color: black;
+    color: beige;
+    padding: 10px;
+}
+
+h3{
+    font-family: Arial;
+    font-size: 12px;
+    padding: 10px;
+    background-color: rgba(100,25,0,0.5);
+}
+
+h3>span{
+    font-family: Arial;
+    color: rgb(99, 37, 49);
+    padding-left: inherit;
+    padding-right: inherit;
+}
+
+span{
+    color: blue;
+}

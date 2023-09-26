@@ -1,0 +1,42 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+
+.border{
+    border: 5px solid white;
+    color: black;
+}
+
+.padding-1{
+    background-color: cyan;
+    /* berlaku untuk semua sisi */
+    padding: 40px;
+}
+
+.padding-2{
+    background-color: burlywood;
+    /* berlaku untuk atas-bawah, kanan-kiri */
+    padding: 20px 50px;
+}
+
+.padding-3{
+    background-color: aquamarine;
+    /* berlaku untuk atas, kanan-kiri, bawah */
+    padding: 5px 20px 50px;
+}
+
+.padding-4{
+    background-color: cadetblue;
+    /* berlaku untuk atas, kanan, kiri, bawah */
+    padding: 5px 10px 20px 50px;
+}
